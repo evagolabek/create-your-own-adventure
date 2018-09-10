@@ -7,8 +7,12 @@
 <body>
 
 	<div id="scene">
+
+		<a href="chose_mountain.html" id="mountain"></a> 
+		<a href="chose_castle.html" id="castle"></a></p>
+
 		<h1>EpicAdventure</h1>
-		<p id="situation"> Press <a href="chose_start.html">START</a> to begin </p>
+		<p id="situation"> Will you got to the <a href="chose_mountain.html">MOUNTAIN</a> or the <a href="chose_castle.html">CASTLE </a></p>
 	</div>
 
 
@@ -61,6 +65,31 @@
 		width: 640px;
 		text-align: center;
 	}
+
+	#mountain { 
+		position: absolute;
+		left: 20px;
+		top: 20px;
+		width: 200px;
+		height: 300px;
+	}
+
+	 #mountain:hover {
+	 	background-color: rgba(256,256,256,.5);
+	 }
+
+	 #castle {
+	 	position: absolute;
+		left: 470px;
+		top: 20px;
+		width: 210px;
+		height: 300px;
+	 }
+
+	 #castle:hover {
+	 	background-color: rgba(256,256,256,.5);
+	 }
+
 </style>
 
 </body>
