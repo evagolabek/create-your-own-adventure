@@ -8,8 +8,8 @@
 
 	<div id="scene">
 
-		<a href="chose_run.html" id="run"></a> 
-		<a href="chose_fight.html" id="fight"> </a></p>
+		<a href="chose_run.html" ><img src="images/run.png" id="run"></a> 
+		<a href="chose_fight.html" ><img src="images/fight.png" id="fight"></a>
 
 		<h1>EpicAdventure</h1>
 		<p id="situation"> You are attacked by a troll! Will you <a href="chose_run.html">RUN</a> or <a href="chose_fight.html">FIGHT</a>?</p>
@@ -72,10 +72,12 @@
 		top: 20px;
 		width: 200px;
 		height: 300px;
+		opacity: 0;
 	}
 
 	 #run:hover {
 	 	background-color: rgba(256,256,256,.5);
+	 	opacity: 1;
 	 }
 
 	 #fight {
@@ -84,10 +86,12 @@
 		top: 20px;
 		width: 210px;
 		height: 300px;
+		opacity: 0;
 	 }
 
 	 #fight:hover {
 	 	background-color: rgba(256,256,256,.5);
+	 	opacity: 1;
 	 }
 
 </style>
